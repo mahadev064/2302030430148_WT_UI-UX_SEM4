@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+/* Gallery Button */
+.gallery-btn {
+    background-color: #c04d50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+/* Symbol Container */
+.symbols-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Symbol Images */
+.symbols-container img {
+    width: 100px;
+    height: auto;
+    object-fit: contain;
+}
+
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery of Symbols</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <section class="symbol-gallery">
+        <button class="gallery-btn">Gallery of Symbol</button>
+
+        <div class="symbols-container">
+            <img src="symbol1.png" alt="Symbol 1">
+            <img src="symbol2.png" alt="Symbol 2">
+            <img src="symbol3.png" alt="Symbol 3">
+            <img src="symbol4.png" alt="Symbol 4">
+            <img src="symbol5.png" alt="Symbol 5">
+            <img src="symbol6.png" alt="Symbol 6">
+        </div>
+    </section>
+
+</body>
+</html>
