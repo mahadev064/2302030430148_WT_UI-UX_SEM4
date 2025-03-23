@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <style>
+        body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    width: 300px;
+}
+
+.header {
+    background-color: #d5a6a1; /* light pink */
+    border-radius: 10px;
+    color: black;
+    padding: 10px;
+}
+
+.input-field {
+    background-color: #e3b7ab; /* light brown */
+    border: none;
+    border-radius: 10px;
+    color: black;
+    display: block;
+    font-size: 16px;
+    margin: 15px 0;
+    padding: 10px;
+    width: 100%;
+}
+
+.submit-button {
+    background-color: #7d9ca2; /* blue */
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.submit-button:hover {
+    background-color: #6a8a95; /* darker blue */
+}
+
+.footer-email {
+    color: #3e3e3e;
+    margin-top: 10px;
+}
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Join Us Form</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="header">join us interactive</h1>
+        <input type="text" class="input-field" placeholder="name">
+        <input type="email" class="input-field" placeholder="e mail">
+        <input type="tel" class="input-field" placeholder="phone">
+        <button class="submit-button">sent it</button>
+        <div class="footer-email">info@interactive.com</div>
+    </div>
+</body>
+</html>
